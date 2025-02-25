@@ -1,0 +1,26 @@
+version: "3.1"
+
+intents:
+  - greet
+  - intent_summarize
+  - intent_keyword_extraction
+  - intent_ner
+  - intent_clause
+  - intent_ocr
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+actions:
+  - action_summary
+  - action_ner
+  - action_keyword
+  - action_clause
+  - action_ocr
+  - action_custom_fallback
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

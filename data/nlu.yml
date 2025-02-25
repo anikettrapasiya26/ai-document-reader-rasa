@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - sorry
+
+- intent: intent_summarize
+  examples: |
+    - Contract Summarization
+    - contract summarization
+    - perform contract summarization this text.
+    - give contract summarization of this text.
+    - contract summarization this text document.
+
+  
+- intent: intent_keyword_extraction
+  examples: |
+    - Keywords Extraction
+    - keywords extraction
+    - find keywords for this text.
+    - list out keyword for this text.
+    - perform keyword extraction.
+    
+- intent: intent_ner
+  examples: |
+    - ner
+    - Name Entity Recognition
+    - perform Name Entity Recognition for this text.
+    - give name entity recognition of this text.
+    - name entity recognition this document.
+
+
+- intent: intent_clause
+  examples: |
+    - Clause Extraction
+    - clause extraction
+    - find clause for this text.
+    - extract clause from this document.
+    - list out clause from this document.
+
+
+- intent: intent_ocr
+  examples: |
+    - OCR
+    - ocr
+    - perform ocr for this images.
+    - give ocr of this images.
+    - ocr this images.

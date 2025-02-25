@@ -1,0 +1,97 @@
+version: "3.1"
+
+nlu:
+- intent: peoples
+  examples: |
+    - give me linked in id of aron clemeti
+    - who  is the founder of goofle
+    - whos is the founder of sylbaa
+    - give me his bio
+    - give me his linked in id
+    - give me his contact details
+    - is he have 500+ connecction?
+    - give me tenity staff
+    - give me people from australia
+    - give me people who are founders
+    - give me people who are CEO
+    - give me people whose hub is australia
+    - give me people that name start with james
+    - give me people from india whose hub is australia
+    - give me founder people from australia
+    - give me people from warrify startup
+
+- intent: startups
+  examples: |
+    - give me the list of batch 11 programs startups
+    - find financing industry startups from switzerland hub
+    - give companies who's Use funding stage is Incubation Program.
+    - Who is the ceo of fuelgrowth Startup?
+    - on which technology fuelgrowth startups work?
+    - give me website link of this startups
+    - give me all startups based AI technology
+    - whcih technology are used by sylbaa
+    - i want to know about startups who have equity with tenity
+    - tell me equity financing raised by startups
+    - which startups has raised more than 40000
+    - total pre money valuation of all startups
+    - give me newly emerging startups
+    - is there any events in this company
+    - give me details about Fynce 
+    - location of this company
+    - any events of this company
+    - who is founder of blockware
+    - who is the CEO of company blockware
+    - tell me presentator of the communication event
+    - give me real estate companies
+    - robotics comapnies in switzerland
+    - give me comapnies whos's created at in previous month
+    - give all startups which are raising investment
+    - Real Estate DLT infrastructure companies
+    - batch 11 incubation companies
+    - debt startups from switxerland
+    - give me statups who have raised more than 47000 capital
+    - give me startups who have more than 1000 tenity share
+    - give me the companies who''s incorporated is pending
+    - give me real estate companies
+    - give the list of protoype product stage statups
+    - give me companies who use DLT infrastructure
+    - wealth management companies in switzerland
+    - find financing industry startups from switzerland
+    - give startups that has 50000 or more tenity participation
+    - give the startups that created in or after auguest 2023
+    - give me the list of batch 11 programs staetups
+    - give me the companies who have crypto industry have in singapore
+    - give me companies from Belgium
+    - comapnies whos using biometric technology
+    - how much money was raised by all companies from the incubation fund I
+    - which startup has raised more than 40000
+    - in there a company which has raised three investment rounds?
+    - how much money has jrny raised so far?
+    - when did jrny close their latest funding round?
+    - when is the total amount raised by all companies?
+    - which comapany has the oldest founding year of all?
+    - what is the total amount raised by all companies at Tenity?
+    - which companies are raising at the moment?
+    - which cmpany has the highest valuation?
+
+  
+- intent: events
+  examples: |
+    - are there any upcoming events happening at tenity?
+    - what is the event date of tenity legends night
+    - give me location of tenity legends night event
+    - Who is the presenters of communication event
+    - is there any other event whoes presenters is lukas ninck
+    - give me upcoming november months events
+    - give me events held in switzerland
+    - give me latest one event
+    - give me keyrock events
+    - give me upcoming events held in tenity arena
+    - give me upcoming events held in Zurich
+    - give me events held in Hong Kong
+    - give me next one event
+    - give me latest upcoming events in tenity
+    - give me comapny name of first event
+    - communication which startups event it is?
+    - how many events are upcoming up in november
+    - show me all community events upcoming

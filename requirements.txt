@@ -1,0 +1,7 @@
+rasa==3.5.4
+openai==0.27.3
+boto3==1.26.116
+pdfminer.six==20220524
+docx2txt
+spacy
+fpdf

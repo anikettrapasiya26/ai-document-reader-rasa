@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: wx_1
+  steps:
+  - intent: intent_summarize
+  - action: action_summary
+
+- story: wx_2
+  steps:
+  - intent: intent_keyword_extraction
+  - action: action_keyword
+
+- story: wx_3
+  steps:
+  - intent: intent_ner
+  - action: action_ner
+
+- story: wx_4
+  steps:
+  - intent: intent_clause
+  - action: action_clause
+
+- story: wx_5
+  steps:
+  - intent: intent_ocr
+  - action: action_ocr
